@@ -1,0 +1,59 @@
+<p>My Dashboard</p>
+
+<div class="pos-f-t">
+  
+    <nav class="navbar navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span style="font-size: 35px ;text-align: center;">Welcome ! </span>
+      </button>
+    </nav>
+  
+  </div>
+<div>
+  <div style="float: right;text-align: center; width: 60%">
+    <img src="https://live.staticflickr.com/5226/5799445141_ba919cea29.jpg" height="724x" width="111%" alt=""></div>
+    
+    <div id="form" style="float: right; width: 40%">
+        <div style="text-align: center; font-size: 25px; font-style: italic;">Enter Details</div>
+
+        <form >
+
+           
+          <div class="form-group pt-5">
+            <label for="exampleInputEmail1"><i class="fa-solid fa-file-signature"></i> First Name</label>
+            <input type="text" formControlName="uemail"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter First Name">
+          </div>
+          <div class="form-group ">
+            <label for="exampleInputPassword1"> <i class="fa-solid fa-file-signature"></i> Last Name</label>
+            <input type="text" formControlName="upassword" class="form-control" id="exampleInputPassword1" placeholder="Enter Last Name">
+          </div >
+
+         
+
+          <div class="form-group">
+            <label for="exampleInputEmail1"> <i class="fa-solid fa-envelope"></i> Email</label>
+            <input type="text" formControlName="uemail"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Email">
+          </div>
+
+          <div class="form-group ">
+            <label for="exampleInputEmail1"> <i class="fa-solid fa-phone"></i> Phone Number</label>
+            <input type="text" formControlName="uemail"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Phone Number">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1"> <i class="fa-solid fa-school"></i> College Name</label>
+            <input type="text" formControlName="uemail"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter College Name">
+          </div>
+
+          <div class="form-group">
+            <label for="exampleInputEmail1"> <i class="fa-solid fa-building"></i> Current Organization Name</label>
+            <input type="text" formControlName="uemail"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Current Organization Name">
+          </div>
+          <br>
+          <div class="text-center">
+            <button (click)="sSubmit()" class="btn btn-primary ">Submit</button>
+          </div>
+            </form>
+      </div>
+  
+</div>
